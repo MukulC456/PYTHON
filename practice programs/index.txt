@@ -1,0 +1,4 @@
+Q1-4 user inputs
+Q5-9 conditional statements (if,elif,else)
+Q10-19 basic while loops
+Q20- basic for loops
