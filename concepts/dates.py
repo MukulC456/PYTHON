@@ -36,6 +36,7 @@ print(f"Minutes: {today.minute}")
 print(f"Seconds: {today.second}")
 '''
 
+'''
 from datetime import datetime,timedelta
 
 birthday = input("When is your birthday (dd/mm/yyyy)?: ")
@@ -44,3 +45,4 @@ print(f"Birthday: {birthday_date}")
 one_day = timedelta(days=1)
 previous_day = birthday_date - one_day
 print(f"Day before birthday: {previous_day}")
+'''
