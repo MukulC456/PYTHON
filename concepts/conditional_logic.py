@@ -57,6 +57,7 @@ else:
     tax = 8
 print(f"Tax is {tax}%")
 '''
+'''
 # nested if else
 country = input("What country do you live in?: ")
 country = country.capitalize()
@@ -77,3 +78,4 @@ if country == "India":
 else:
     tax = 0
     print(f"Tax is {tax}%")
+'''
