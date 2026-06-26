@@ -1,6 +1,7 @@
 '''
 Arrays: Numerical data types, all must be of same type
-Lists: Store anything, store any type
+Lists: Store anything, store any type, order of storage matters
+Dictionaries: key-value pairs, order of storage does not matter
 '''
 
 '''
@@ -23,9 +24,9 @@ print(names)
 names.sort() # sorts items in alphabetical order for strings and ascending order for numbers
 print(names)
 '''
+'''
 # ranges in list
 
-'''
 for example we have: 
 list_name = [item1, item2, item3, item4]  put indexes on commas and square brackets.
             0     1      2      3      4
@@ -41,4 +42,16 @@ print(required)
 required = names[:]   # this is same as [0:4]
 print(required)
 '''
+'''
+# dictionaries
 
+dict = {}  # created an empty dictionary
+dict["Name"] = "Mukul"
+dict["Job"] = "Software Engineer"
+dict["Age"] = "22"
+print(dict)
+
+lst = []  # created an empty list
+lst.append(dict)  # added the dictionary in a list
+print(lst)
+'''
