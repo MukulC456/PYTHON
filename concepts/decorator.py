@@ -6,6 +6,7 @@ def get_products:
     # code to list from database
     pass
 '''
+'''
 # Creating a decorator
 def logger(func):
     def wrapper():
@@ -17,3 +18,4 @@ def logger(func):
 @logger
 def sample():
     print("-- Inside sample function")
+'''
